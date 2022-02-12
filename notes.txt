@@ -1,0 +1,4 @@
+Create new project:
+    # dotnet new 
+Add Nuget Package:
+    # dotnet add package MongDB.Driver

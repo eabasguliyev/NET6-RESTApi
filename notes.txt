@@ -2,3 +2,9 @@ Create new project:
     # dotnet new 
 Add Nuget Package:
     # dotnet add package MongDB.Driver
+
+Initialize Secret-Manager
+    # dotnet user-secrets init
+Add a secret
+    # dotnet user-secrets set section:property value
+    ex: dotnet user-secrets set MongoDbSettings:Password pass123
